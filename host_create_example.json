@@ -1,0 +1,317 @@
+{
+  "hostID": 4,
+  "image": [
+    {
+      "id": 1,
+      "name": "Ubuntu",
+      "type": "image",
+      "minDiskSize": 20,
+      "unavailableRegions": [],
+      "version": {
+        "id": "10000",
+        "description": "Ubuntu 18.04 LTS",
+        "passwordUnsupported": false
+      },
+      "versions": [
+        {
+          "id": "10000",
+          "description": "Ubuntu 18.04 LTS",
+          "passwordUnsupported": false
+        },
+        {
+          "id": "10001",
+          "description": "Ubuntu 19.04",
+          "passwordUnsupported": false
+        }
+      ],
+      "extraCostPerMonth": 0,
+      "windows": false
+    },
+    {
+      "id": 2,
+      "name": "CentOS",
+      "type": "image",
+      "minDiskSize": 20,
+      "unavailableRegions": [],
+      "version": {
+        "id": "11000",
+        "description": "CentOS 7.6",
+        "passwordUnsupported": false
+      },
+      "versions": [],
+      "extraCostPerMonth": 0,
+      "windows": false
+    },
+    {
+      "id": 3,
+      "name": "Debian",
+      "type": "image",
+      "minDiskSize": 20,
+      "unavailableRegions": [],
+      "version": {
+        "id": "12001",
+        "description": "Debian 10",
+        "passwordUnsupported": false
+      },
+      "versions": [],
+      "extraCostPerMonth": 0,
+      "windows": false
+    },
+    {
+      "id": 4,
+      "name": "Windows",
+      "type": "image",
+      "minDiskSize": 50,
+      "unavailableRegions": [],
+      "version": {
+        "id": "13000",
+        "description": "Windows 10 Pro",
+        "passwordUnsupported": false
+      },
+      "versions": [],
+      "extraCostPerMonth": 0,
+      "windows": true
+    },
+    {
+      "id": 5,
+      "name": "OpenVPN",
+      "type": "app",
+      "minDiskSize": 20,
+      "unavailableRegions": [],
+      "version": {
+        "id": "20000",
+        "description": "OpenVPN",
+        "passwordUnsupported": false
+      },
+      "versions": [],
+      "extraCostPerMonth": 0,
+      "windows": false
+    },
+    {
+      "id": 6,
+      "name": "WireGuard VPN",
+      "type": "app",
+      "minDiskSize": 20,
+      "unavailableRegions": [],
+      "version": {
+        "id": "21000",
+        "description": "WireGuard VPN",
+        "passwordUnsupported": false
+      },
+      "versions": [],
+      "extraCostPerMonth": 0,
+      "windows": false
+    },
+    {
+      "id": 7,
+      "name": "Shadowsocks",
+      "type": "app",
+      "minDiskSize": 20,
+      "unavailableRegions": [],
+      "version": {
+        "id": "22000",
+        "description": "Shadowsocks",
+        "passwordUnsupported": false
+      },
+      "versions": [
+        {
+          "id": "22000",
+          "description": "Shadowsocks",
+          "passwordUnsupported": false
+        },
+        {
+          "id": "22001",
+          "description": "ShadowsocksR",
+          "passwordUnsupported": false
+        }
+      ],
+      "extraCostPerMonth": 0,
+      "windows": false
+    },
+    {
+      "id": 8,
+      "name": "WordPress",
+      "type": "app",
+      "minDiskSize": 20,
+      "unavailableRegions": [],
+      "version": {
+        "id": "23000",
+        "description": "Wordpress",
+        "passwordUnsupported": false
+      },
+      "versions": [],
+      "extraCostPerMonth": 0,
+      "windows": false
+    },
+    {
+      "id": 9,
+      "name": "LEMP",
+      "type": "app",
+      "minDiskSize": 20,
+      "unavailableRegions": [],
+      "version": {
+        "id": "24000",
+        "description": "LEMP Stack",
+        "passwordUnsupported": false
+      },
+      "versions": [],
+      "extraCostPerMonth": 0,
+      "windows": false
+    }
+  ],
+  "region": [
+    {
+      "id": 0,
+      "name": "Amsterdam",
+      "iso": "nl",
+      "subregion": {
+        "id": "ams1",
+        "description": "1",
+        "slug": "ams1",
+        "unavailableSizes": [
+          "nibble-2048",
+          "nibble-4096",
+          "nibble-8192",
+          "nibble-16384"
+        ]
+      },
+      "subregions": []
+    },
+    {
+      "id": 1,
+      "name": "London",
+      "iso": "gb",
+      "subregion": {
+        "id": "lon1",
+        "description": "1",
+        "slug": "lon1",
+        "unavailableSizes": []
+      },
+      "subregions": []
+    },
+    {
+      "id": 2,
+      "name": "Los Angeles",
+      "iso": "us",
+      "subregion": {
+        "id": "lax1",
+        "description": "1",
+        "slug": "lax1",
+        "unavailableSizes": []
+      },
+      "subregions": []
+    }
+  ],
+  "size": [
+    {
+      "id": "nibble-1024",
+      "slug": "Nibble-1024",
+      "bandwidthGB": 1000,
+      "cpuCount": 1,
+      "diskGB": 25,
+      "disks": [
+        {
+          "type": "SSD",
+          "count": 1,
+          "size": "25",
+          "unit": "GB"
+        }
+      ],
+      "memoryMB": 1024,
+      "costPerHr": 14,
+      "costPerMonth": 10,
+      "planType": "standard"
+    },
+    {
+      "id": "nibble-2048",
+      "slug": "Nibble-2048",
+      "bandwidthGB": 2000,
+      "cpuCount": 2,
+      "diskGB": 50,
+      "disks": [
+        {
+          "type": "SSD",
+          "count": 1,
+          "size": "50",
+          "unit": "GB"
+        }
+      ],
+      "memoryMB": 2048,
+      "costPerHr": 27,
+      "costPerMonth": 20,
+      "planType": "standard"
+    },
+    {
+      "id": "nibble-4096",
+      "slug": "Nibble-4096",
+      "bandwidthGB": 3000,
+      "cpuCount": 2,
+      "diskGB": 100,
+      "disks": [
+        {
+          "type": "SSD",
+          "count": 1,
+          "size": "100",
+          "unit": "GB"
+        }
+      ],
+      "memoryMB": 4096,
+      "costPerHr": 54,
+      "costPerMonth": 40,
+      "planType": "standard"
+    },
+    {
+      "id": "nibble-8192",
+      "slug": "Nibble-8192",
+      "bandwidthGB": 4000,
+      "cpuCount": 4,
+      "diskGB": 150,
+      "disks": [
+        {
+          "type": "SSD",
+          "count": 1,
+          "size": "150",
+          "unit": "GB"
+        }
+      ],
+      "memoryMB": 8192,
+      "costPerHr": 108,
+      "costPerMonth": 80,
+      "planType": "standard"
+    },
+    {
+      "id": "nibble-16384",
+      "slug": "Nibble-16384",
+      "bandwidthGB": 5000,
+      "cpuCount": 6,
+      "diskGB": 300,
+      "disks": [
+        {
+          "type": "SSD",
+          "count": 1,
+          "size": "300",
+          "unit": "GB"
+        }
+      ],
+      "memoryMB": 16384,
+      "costPerHr": 216,
+      "costPerMonth": 160,
+      "planType": "standard"
+    }
+  ],
+  "available": true,
+  "bandwidthCost": 10,
+  "planTypes": [
+    {
+      "type": "standard",
+      "description": "Fast SSD KVM virtual machines with a mix of compute resources and dedicated memory for a variety of applications.",
+      "name": "Standard"
+    }
+  ],
+  "hostOptions": {
+    "rebuild": true,
+    "resize": true,
+    "backups": false,
+    "userScript": false
+  }
+}

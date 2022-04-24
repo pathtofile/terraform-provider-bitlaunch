@@ -1,0 +1,953 @@
+{
+    "hostID": 0,
+    "image": [
+        {
+            "id": 1,
+            "name": "Ubuntu",
+            "type": "image",
+            "minDiskSize": 20,
+            "unavailableRegions": [
+                "sfo1",
+                "nyc2",
+                "ams2"
+            ],
+            "version": {
+                "id": "106427349",
+                "description": "21.10 x64",
+                "passwordUnsupported": false
+            },
+            "versions": [
+                {
+                    "id": "106427349",
+                    "description": "21.10 x64",
+                    "passwordUnsupported": false
+                },
+                {
+                    "id": "106421232",
+                    "description": "20.04 (LTS) x64",
+                    "passwordUnsupported": false
+                },
+                {
+                    "id": "106421231",
+                    "description": "18.04 (LTS) x64",
+                    "passwordUnsupported": false
+                }
+            ],
+            "extraCostPerMonth": 0,
+            "windows": false,
+            "unavailablePlans": []
+        },
+        {
+            "id": 3,
+            "name": "Debian",
+            "type": "image",
+            "minDiskSize": 20,
+            "unavailableRegions": [
+                "sfo1",
+                "nyc2",
+                "ams2"
+            ],
+            "version": {
+                "id": "106557160",
+                "description": "Debian 11 x64",
+                "passwordUnsupported": false
+            },
+            "versions": [
+                {
+                    "id": "106557160",
+                    "description": "Debian 11 x64",
+                    "passwordUnsupported": false
+                },
+                {
+                    "id": "101134485",
+                    "description": "Debian 10 x64",
+                    "passwordUnsupported": false
+                }
+            ],
+            "extraCostPerMonth": 0,
+            "windows": false,
+            "unavailablePlans": []
+        },
+        {
+            "id": 4,
+            "name": "CentOS",
+            "type": "image",
+            "minDiskSize": 20,
+            "unavailableRegions": [
+                "sfo1",
+                "nyc2",
+                "ams2"
+            ],
+            "version": {
+                "id": "106434098",
+                "description": "Stream 9 x64",
+                "passwordUnsupported": false
+            },
+            "versions": [
+                {
+                    "id": "106434098",
+                    "description": "Stream 9 x64",
+                    "passwordUnsupported": false
+                },
+                {
+                    "id": "106434191",
+                    "description": "Stream 8 x64",
+                    "passwordUnsupported": false
+                },
+                {
+                    "id": "106433672",
+                    "description": "7.6 x64",
+                    "passwordUnsupported": false
+                }
+            ],
+            "extraCostPerMonth": 0,
+            "windows": false,
+            "unavailablePlans": []
+        },
+        {
+            "id": 5,
+            "name": "Discourse",
+            "type": "app",
+            "minDiskSize": 40,
+            "unavailableRegions": [
+                "sfo1",
+                "nyc2",
+                "ams2"
+            ],
+            "version": {
+                "id": "62932114",
+                "description": "Discourse 2.5.0 on 18.04",
+                "passwordUnsupported": false
+            },
+            "versions": [],
+            "extraCostPerMonth": 0,
+            "windows": false,
+            "unavailablePlans": []
+        },
+        {
+            "id": 6,
+            "name": "Python/Django",
+            "type": "app",
+            "minDiskSize": 20,
+            "unavailableRegions": [
+                "sfo1",
+                "nyc2",
+                "ams2"
+            ],
+            "version": {
+                "id": "62828899",
+                "description": "Ubuntu 18.04",
+                "passwordUnsupported": false
+            },
+            "versions": [],
+            "extraCostPerMonth": 0,
+            "windows": false,
+            "unavailablePlans": []
+        },
+        {
+            "id": 7,
+            "name": "Docker",
+            "type": "app",
+            "minDiskSize": 20,
+            "unavailableRegions": [
+                "sfo1",
+                "nyc2",
+                "ams2"
+            ],
+            "version": {
+                "id": "87786318",
+                "description": "Docker 19.03.12 on Ubuntu 20.04",
+                "passwordUnsupported": false
+            },
+            "versions": [],
+            "extraCostPerMonth": 0,
+            "windows": false,
+            "unavailablePlans": []
+        },
+        {
+            "id": 8,
+            "name": "Dokku 0.11.3",
+            "type": "app",
+            "minDiskSize": 20,
+            "unavailableRegions": [
+                "sfo1",
+                "nyc2",
+                "ams2"
+            ],
+            "version": {
+                "id": "72401867",
+                "description": "Dokku 0.21.4 on Ubuntu 20.04",
+                "passwordUnsupported": false
+            },
+            "versions": [],
+            "extraCostPerMonth": 0,
+            "windows": false,
+            "unavailablePlans": []
+        },
+        {
+            "id": 9,
+            "name": "Ghost",
+            "type": "app",
+            "minDiskSize": 0,
+            "unavailableRegions": [
+                "sfo1",
+                "nyc2",
+                "ams2",
+                "sfo3"
+            ],
+            "version": {
+                "id": "64892282",
+                "description": "Ghost on Ubuntu 18.04",
+                "passwordUnsupported": false
+            },
+            "versions": [],
+            "extraCostPerMonth": 0,
+            "windows": false,
+            "unavailablePlans": []
+        },
+        {
+            "id": 10,
+            "name": "GitLab 11.3.3-ce.0",
+            "type": "app",
+            "minDiskSize": 60,
+            "unavailableRegions": [
+                "sfo1",
+                "nyc2",
+                "ams2"
+            ],
+            "version": {
+                "id": "38863454",
+                "description": "Ubuntu  16.04",
+                "passwordUnsupported": false
+            },
+            "versions": [],
+            "extraCostPerMonth": 0,
+            "windows": false,
+            "unavailablePlans": []
+        },
+        {
+            "id": 11,
+            "name": "LAMP",
+            "type": "app",
+            "minDiskSize": 20,
+            "unavailableRegions": [
+                "sfo1",
+                "nyc2",
+                "ams2"
+            ],
+            "version": {
+                "id": "100783574",
+                "description": "LAMP on 20.04",
+                "passwordUnsupported": false
+            },
+            "versions": [],
+            "extraCostPerMonth": 0,
+            "windows": false,
+            "unavailablePlans": []
+        },
+        {
+            "id": 12,
+            "name": "LEMP",
+            "type": "app",
+            "minDiskSize": 20,
+            "unavailableRegions": [
+                "sfo1",
+                "nyc2",
+                "ams2"
+            ],
+            "version": {
+                "id": "51114830",
+                "description": "LEMP on 18.04",
+                "passwordUnsupported": false
+            },
+            "versions": [],
+            "extraCostPerMonth": 0,
+            "windows": false,
+            "unavailablePlans": []
+        },
+        {
+            "id": 14,
+            "name": "Machine Learning and AI",
+            "type": "app",
+            "minDiskSize": 20,
+            "unavailableRegions": [
+                "sfo1",
+                "nyc2",
+                "ams2"
+            ],
+            "version": {
+                "id": "28706758",
+                "description": "Ubuntu",
+                "passwordUnsupported": false
+            },
+            "versions": [],
+            "extraCostPerMonth": 0,
+            "windows": false,
+            "unavailablePlans": []
+        },
+        {
+            "id": 15,
+            "name": "MongoDB 4.4.1",
+            "type": "app",
+            "minDiskSize": 20,
+            "unavailableRegions": [
+                "sfo1",
+                "nyc2",
+                "ams2"
+            ],
+            "version": {
+                "id": "71630964",
+                "description": "Ubuntu 20.04",
+                "passwordUnsupported": false
+            },
+            "versions": [],
+            "extraCostPerMonth": 0,
+            "windows": false,
+            "unavailablePlans": []
+        },
+        {
+            "id": 16,
+            "name": "MySQL",
+            "type": "app",
+            "minDiskSize": 20,
+            "unavailableRegions": [
+                "sfo1",
+                "nyc2",
+                "ams2"
+            ],
+            "version": {
+                "id": "48825518",
+                "description": "Ubuntu 18.04",
+                "passwordUnsupported": false
+            },
+            "versions": [],
+            "extraCostPerMonth": 0,
+            "windows": false,
+            "unavailablePlans": []
+        },
+        {
+            "id": 17,
+            "name": "NodeJS 12.18.1",
+            "type": "app",
+            "minDiskSize": 20,
+            "unavailableRegions": [
+                "sfo1",
+                "nyc2",
+                "ams2"
+            ],
+            "version": {
+                "id": "104035180",
+                "description": "Ubuntu 20.04",
+                "passwordUnsupported": false
+            },
+            "versions": [],
+            "extraCostPerMonth": 0,
+            "windows": false,
+            "unavailablePlans": []
+        },
+        {
+            "id": 18,
+            "name": "PhpMyAdmin",
+            "type": "app",
+            "minDiskSize": 20,
+            "unavailableRegions": [
+                "sfo1",
+                "nyc2",
+                "ams2"
+            ],
+            "version": {
+                "id": "48826557",
+                "description": "Ubuntu 16.04",
+                "passwordUnsupported": false
+            },
+            "versions": [],
+            "extraCostPerMonth": 0,
+            "windows": false,
+            "unavailablePlans": []
+        },
+        {
+            "id": 19,
+            "name": "Ruby-on-Rails",
+            "type": "app",
+            "minDiskSize": 20,
+            "unavailableRegions": [
+                "sfo1",
+                "nyc2",
+                "ams2"
+            ],
+            "version": {
+                "id": "71678054",
+                "description": "Ruby on Rails 6.0.3.4 on Ubuntu 20.04",
+                "passwordUnsupported": false
+            },
+            "versions": [],
+            "extraCostPerMonth": 0,
+            "windows": false,
+            "unavailablePlans": []
+        },
+        {
+            "id": 20,
+            "name": "WordPress",
+            "type": "app",
+            "minDiskSize": 25,
+            "unavailableRegions": [
+                "sfo1",
+                "nyc2",
+                "ams2"
+            ],
+            "version": {
+                "id": "92582848",
+                "description": "WordPress 5.8 on Ubuntu 20.04",
+                "passwordUnsupported": false
+            },
+            "versions": [],
+            "extraCostPerMonth": 0,
+            "windows": false,
+            "unavailablePlans": []
+        },
+        {
+            "id": 21,
+            "name": "Plesk",
+            "type": "app",
+            "minDiskSize": 20,
+            "unavailableRegions": [
+                "sfo1",
+                "nyc2",
+                "ams2"
+            ],
+            "version": {
+                "id": "76400437",
+                "description": "Plesk 18.0 on Ubuntu 20.04",
+                "passwordUnsupported": true
+            },
+            "versions": [],
+            "extraCostPerMonth": 0,
+            "windows": false,
+            "unavailablePlans": []
+        }
+    ],
+    "region": [
+        {
+            "id": 1,
+            "name": "New York ",
+            "iso": "",
+            "subregion": {
+                "id": "nyc1",
+                "description": "1",
+                "slug": "nyc1",
+                "unavailableSizes": []
+            },
+            "subregions": [
+                {
+                    "id": "nyc1",
+                    "description": "1",
+                    "slug": "nyc1",
+                    "unavailableSizes": []
+                },
+                {
+                    "id": "nyc2",
+                    "description": "2",
+                    "slug": "nyc2",
+                    "unavailableSizes": [
+                        "c-2",
+                        "c2-2vcpu-4gb",
+                        "g-2vcpu-8gb",
+                        "gd-2vcpu-8gb",
+                        "m-2vcpu-16gb"
+                    ]
+                },
+                {
+                    "id": "nyc3",
+                    "description": "3",
+                    "slug": "nyc3",
+                    "unavailableSizes": []
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "San Francisco ",
+            "iso": "",
+            "subregion": {
+                "id": "sfo1",
+                "description": "1",
+                "slug": "sfo1",
+                "unavailableSizes": [
+                    "c-2",
+                    "c2-2vcpu-4gb",
+                    "g-2vcpu-8gb",
+                    "gd-2vcpu-8gb",
+                    "m-2vcpu-16gb"
+                ]
+            },
+            "subregions": [
+                {
+                    "id": "sfo1",
+                    "description": "1",
+                    "slug": "sfo1",
+                    "unavailableSizes": [
+                        "c-2",
+                        "c2-2vcpu-4gb",
+                        "g-2vcpu-8gb",
+                        "gd-2vcpu-8gb",
+                        "m-2vcpu-16gb"
+                    ]
+                },
+                {
+                    "id": "sfo2",
+                    "description": "2",
+                    "slug": "sfo2",
+                    "unavailableSizes": []
+                },
+                {
+                    "id": "sfo3",
+                    "description": "3",
+                    "slug": "sfo3",
+                    "unavailableSizes": []
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Amsterdam ",
+            "iso": "",
+            "subregion": {
+                "id": "ams2",
+                "description": "2",
+                "slug": "ams2",
+                "unavailableSizes": [
+                    "c-2",
+                    "c2-2vcpu-4gb",
+                    "g-2vcpu-8gb",
+                    "gd-2vcpu-8gb",
+                    "m-2vcpu-16gb"
+                ]
+            },
+            "subregions": [
+                {
+                    "id": "ams2",
+                    "description": "2",
+                    "slug": "ams2",
+                    "unavailableSizes": [
+                        "c-2",
+                        "c2-2vcpu-4gb",
+                        "g-2vcpu-8gb",
+                        "gd-2vcpu-8gb",
+                        "m-2vcpu-16gb"
+                    ]
+                },
+                {
+                    "id": "ams3",
+                    "description": "3",
+                    "slug": "ams3",
+                    "unavailableSizes": [
+                        "m-2vcpu-16gb"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Singapore ",
+            "iso": "",
+            "subregion": {
+                "id": "sgp1",
+                "description": "1",
+                "slug": "sgp1",
+                "unavailableSizes": []
+            },
+            "subregions": [
+                {
+                    "id": "sgp1",
+                    "description": "1",
+                    "slug": "sgp1",
+                    "unavailableSizes": []
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "London ",
+            "iso": "",
+            "subregion": {
+                "id": "lon1",
+                "description": "1",
+                "slug": "lon1",
+                "unavailableSizes": []
+            },
+            "subregions": [
+                {
+                    "id": "lon1",
+                    "description": "1",
+                    "slug": "lon1",
+                    "unavailableSizes": []
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Frankfurt ",
+            "iso": "",
+            "subregion": {
+                "id": "fra1",
+                "description": "1",
+                "slug": "fra1",
+                "unavailableSizes": []
+            },
+            "subregions": [
+                {
+                    "id": "fra1",
+                    "description": "1",
+                    "slug": "fra1",
+                    "unavailableSizes": []
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Toronto ",
+            "iso": "",
+            "subregion": {
+                "id": "tor1",
+                "description": "1",
+                "slug": "tor1",
+                "unavailableSizes": []
+            },
+            "subregions": [
+                {
+                    "id": "tor1",
+                    "description": "1",
+                    "slug": "tor1",
+                    "unavailableSizes": []
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Bangalore ",
+            "iso": "",
+            "subregion": {
+                "id": "blr1",
+                "description": "1",
+                "slug": "blr1",
+                "unavailableSizes": []
+            },
+            "subregions": [
+                {
+                    "id": "blr1",
+                    "description": "1",
+                    "slug": "blr1",
+                    "unavailableSizes": []
+                }
+            ]
+        }
+    ],
+    "size": [
+        {
+            "id": "s-1vcpu-1gb",
+            "slug": "s-1vcpu-1gb",
+            "bandwidthGB": 0,
+            "cpuCount": 1,
+            "diskGB": 25,
+            "disks": [
+                {
+                    "type": "SSD",
+                    "count": 1,
+                    "size": "25",
+                    "unit": "GB"
+                }
+            ],
+            "memoryMB": 1024,
+            "costPerHr": 21,
+            "costPerMonth": 14,
+            "planType": "standard"
+        },
+        {
+            "id": "s-1vcpu-2gb",
+            "slug": "s-1vcpu-2gb",
+            "bandwidthGB": 0,
+            "cpuCount": 1,
+            "diskGB": 50,
+            "disks": [
+                {
+                    "type": "SSD",
+                    "count": 1,
+                    "size": "50",
+                    "unit": "GB"
+                }
+            ],
+            "memoryMB": 2048,
+            "costPerHr": 39,
+            "costPerMonth": 26,
+            "planType": "standard"
+        },
+        {
+            "id": "s-1vcpu-3gb",
+            "slug": "s-1vcpu-3gb",
+            "bandwidthGB": 0,
+            "cpuCount": 1,
+            "diskGB": 60,
+            "disks": [
+                {
+                    "type": "SSD",
+                    "count": 1,
+                    "size": "60",
+                    "unit": "GB"
+                }
+            ],
+            "memoryMB": 3072,
+            "costPerHr": 59,
+            "costPerMonth": 39,
+            "planType": "standard"
+        },
+        {
+            "id": "s-2vcpu-2gb",
+            "slug": "s-2vcpu-2gb",
+            "bandwidthGB": 0,
+            "cpuCount": 2,
+            "diskGB": 80,
+            "disks": [
+                {
+                    "type": "SSD",
+                    "count": 1,
+                    "size": "80",
+                    "unit": "GB"
+                }
+            ],
+            "memoryMB": 2048,
+            "costPerHr": 59,
+            "costPerMonth": 39,
+            "planType": "standard"
+        },
+        {
+            "id": "s-2vcpu-4gb",
+            "slug": "s-2vcpu-4gb",
+            "bandwidthGB": 0,
+            "cpuCount": 2,
+            "diskGB": 80,
+            "disks": [
+                {
+                    "type": "SSD",
+                    "count": 1,
+                    "size": "80",
+                    "unit": "GB"
+                }
+            ],
+            "memoryMB": 4096,
+            "costPerHr": 84,
+            "costPerMonth": 56,
+            "planType": "standard"
+        },
+        {
+            "id": "s-4vcpu-8gb",
+            "slug": "s-4vcpu-8gb",
+            "bandwidthGB": 0,
+            "cpuCount": 4,
+            "diskGB": 160,
+            "disks": [
+                {
+                    "type": "SSD",
+                    "count": 1,
+                    "size": "160",
+                    "unit": "GB"
+                }
+            ],
+            "memoryMB": 8192,
+            "costPerHr": 167,
+            "costPerMonth": 112,
+            "planType": "standard"
+        },
+        {
+            "id": "s-6vcpu-16gb",
+            "slug": "s-6vcpu-16gb",
+            "bandwidthGB": 0,
+            "cpuCount": 6,
+            "diskGB": 320,
+            "disks": [
+                {
+                    "type": "SSD",
+                    "count": 1,
+                    "size": "320",
+                    "unit": "GB"
+                }
+            ],
+            "memoryMB": 16384,
+            "costPerHr": 334,
+            "costPerMonth": 224,
+            "planType": "standard"
+        },
+        {
+            "id": "s-8vcpu-32gb",
+            "slug": "s-8vcpu-32gb",
+            "bandwidthGB": 0,
+            "cpuCount": 8,
+            "diskGB": 640,
+            "disks": [
+                {
+                    "type": "SSD",
+                    "count": 1,
+                    "size": "640",
+                    "unit": "GB"
+                }
+            ],
+            "memoryMB": 32768,
+            "costPerHr": 620,
+            "costPerMonth": 416,
+            "planType": "standard"
+        },
+        {
+            "id": "s-12vcpu-48gb",
+            "slug": "s-12vcpu-48gb",
+            "bandwidthGB": 0,
+            "cpuCount": 12,
+            "diskGB": 960,
+            "disks": [
+                {
+                    "type": "SSD",
+                    "count": 1,
+                    "size": "960",
+                    "unit": "GB"
+                }
+            ],
+            "memoryMB": 49152,
+            "costPerHr": 858,
+            "costPerMonth": 576,
+            "planType": "standard"
+        },
+        {
+            "id": "s-16vcpu-64gb",
+            "slug": "s-16vcpu-64gb",
+            "bandwidthGB": 0,
+            "cpuCount": 16,
+            "diskGB": 1280,
+            "disks": [
+                {
+                    "type": "SSD",
+                    "count": 1,
+                    "size": "1280",
+                    "unit": "GB"
+                }
+            ],
+            "memoryMB": 65536,
+            "costPerHr": 1143,
+            "costPerMonth": 768,
+            "planType": "standard"
+        },
+        {
+            "id": "c-2",
+            "slug": "c-2-4gb",
+            "bandwidthGB": 0,
+            "cpuCount": 2,
+            "diskGB": 25,
+            "disks": [
+                {
+                    "type": "SSD",
+                    "count": 1,
+                    "size": "25",
+                    "unit": "GB"
+                }
+            ],
+            "memoryMB": 4096,
+            "costPerHr": 167,
+            "costPerMonth": 112,
+            "planType": "cpu"
+        },
+        {
+            "id": "c-4",
+            "slug": "c-4-8gb",
+            "bandwidthGB": 0,
+            "cpuCount": 4,
+            "diskGB": 50,
+            "disks": [
+                {
+                    "type": "SSD",
+                    "count": 1,
+                    "size": "50",
+                    "unit": "GB"
+                }
+            ],
+            "memoryMB": 8192,
+            "costPerHr": 334,
+            "costPerMonth": 224,
+            "planType": "cpu"
+        },
+        {
+            "id": "c-8",
+            "slug": "c-8-16gb",
+            "bandwidthGB": 0,
+            "cpuCount": 8,
+            "diskGB": 100,
+            "disks": [
+                {
+                    "type": "SSD",
+                    "count": 1,
+                    "size": "100",
+                    "unit": "GB"
+                }
+            ],
+            "memoryMB": 16384,
+            "costPerHr": 667,
+            "costPerMonth": 448,
+            "planType": "cpu"
+        },
+        {
+            "id": "c-16",
+            "slug": "c-16-32gb",
+            "bandwidthGB": 0,
+            "cpuCount": 16,
+            "diskGB": 200,
+            "disks": [
+                {
+                    "type": "SSD",
+                    "count": 1,
+                    "size": "200",
+                    "unit": "GB"
+                }
+            ],
+            "memoryMB": 32768,
+            "costPerHr": 1239,
+            "costPerMonth": 832,
+            "planType": "cpu"
+        },
+        {
+            "id": "c-32",
+            "slug": "c-32-64gb",
+            "bandwidthGB": 0,
+            "cpuCount": 32,
+            "diskGB": 400,
+            "disks": [
+                {
+                    "type": "SSD",
+                    "count": 1,
+                    "size": "400",
+                    "unit": "GB"
+                }
+            ],
+            "memoryMB": 65536,
+            "costPerHr": 2286,
+            "costPerMonth": 1536,
+            "planType": "cpu"
+        }
+    ],
+    "available": true,
+    "bandwidthCost": 0,
+    "planTypes": [
+        {
+            "type": "standard",
+            "description": "Standard virtual machines with a mix of memory and compute resources.",
+            "name": "Standard"
+        },
+        {
+            "type": "cpu",
+            "description": "Compute-optimized virtual machines with dedicated hyper-threads from best in class Intel processors. ",
+            "name": "CPU Optimized"
+        }
+    ],
+    "hostOptions": {
+        "rebuild": true,
+        "resize": true,
+        "backups": true,
+        "userScript": true,
+        "access": false
+    }
+}
