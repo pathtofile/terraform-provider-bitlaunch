@@ -16,8 +16,8 @@ Holds available region configurations for a server. Matches https://developers.b
 terraform {
   required_providers {
     bitlaunch = {
-      version = "~> 0.0.1"
-      source  = "hashicorp.com/pathtofile/bitlaunch"
+      version = "0.2.0"
+      source  = "pathtofile-tf/bitlaunch"
     }
   }
 }
