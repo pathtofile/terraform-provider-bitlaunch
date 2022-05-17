@@ -10,7 +10,10 @@ description: |-
 The BitLaunch provider provides resources to create and manage [BitLaunch.io](https://bitlaunch.io/) VMs,
 , which can be paid for using Bitcoin, Etherium, or Litecoin.
 
-If you find this project useful, feel free to buy me a coffee in BTC at `16g88jxnX315CnjTDbfZ9hwuWgeSbRJdMG`
+If you find this project useful, feel free to buy me a coffee in BTC at `16g88jxnX315CnjTDbfZ9hwuWgeSbRJdMG`.
+
+For more information also see the [BitLaunch API Docs](https://developers.bitlaunch.io/reference),
+as a most of the basic API objects have a 1:1 mapping to Terraform Resources or Data sources.
 
 ## Example Usage
 

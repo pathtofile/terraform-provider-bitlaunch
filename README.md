@@ -81,7 +81,7 @@ resource "bitlaunch_sever" "server" {
 }
 ```
 
-See the full docs on Terrafor, as well as the [BitLaunch API Docs](https://developers.bitlaunch.io/reference),
+See the full docs on the [Terraform registry page](https://registry.terraform.io/providers/pathtofile-tf/bitlaunch/latest/docs), as well as the [BitLaunch API Docs](https://developers.bitlaunch.io/reference),
 for more details. Most of the API objects have a 1:1 mapping to Terraform Resources or Data sources.
 
 # Building
