@@ -16,7 +16,7 @@ SSH Key resouce. Matches https://developers.bitlaunch.io/reference/ssh-key-objec
 terraform {
   required_providers {
     bitlaunch = {
-      version = "0.2.0"
+      version = "0.4.0"
       source  = "pathtofile-tf/bitlaunch"
     }
   }

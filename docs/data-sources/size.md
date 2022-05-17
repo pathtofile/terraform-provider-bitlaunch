@@ -16,7 +16,7 @@ Holds details on available size configurations for a server. Matches https://dev
 terraform {
   required_providers {
     bitlaunch = {
-      version = "0.2.0"
+      version = "0.4.0"
       source  = "pathtofile-tf/bitlaunch"
     }
   }
