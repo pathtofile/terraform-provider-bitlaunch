@@ -3,12 +3,12 @@
 page_title: "bitlaunch_image Data Source - terraform-provider-bitlaunch"
 subcategory: ""
 description: |-
-  Sample data source in the Terraform provider scaffolding.
+  Holds details on Images and apps available when configuring a server. Matches https://developers.bitlaunch.io/reference/host-image-object
 ---
 
 # bitlaunch_image (Data Source)
 
-Sample data source in the Terraform provider scaffolding.
+Holds details on Images and apps available when configuring a server. Matches https://developers.bitlaunch.io/reference/host-image-object
 
 ## Example Usage
 

@@ -3,12 +3,12 @@
 page_title: "bitlaunch_server Resource - terraform-provider-bitlaunch"
 subcategory: ""
 description: |-
-  Virtual Machine Server
+  Virtual Machine Resource. Matches https://developers.bitlaunch.io/reference/server-object
 ---
 
 # bitlaunch_server (Resource)
 
-Virtual Machine Server
+Virtual Machine Resource. Matches https://developers.bitlaunch.io/reference/server-object
 
 ## Example Usage
 

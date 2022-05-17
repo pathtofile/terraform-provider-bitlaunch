@@ -3,12 +3,12 @@
 page_title: "bitlaunch_size Data Source - terraform-provider-bitlaunch"
 subcategory: ""
 description: |-
-  Sample data source in the Terraform provider scaffolding.
+  Holds details on available size configurations for a server. Matches https://developers.bitlaunch.io/reference/host-size-object
 ---
 
 # bitlaunch_size (Data Source)
 
-Sample data source in the Terraform provider scaffolding.
+Holds details on available size configurations for a server. Matches https://developers.bitlaunch.io/reference/host-size-object
 
 ## Example Usage
 

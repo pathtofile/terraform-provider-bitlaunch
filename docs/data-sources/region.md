@@ -3,12 +3,12 @@
 page_title: "bitlaunch_region Data Source - terraform-provider-bitlaunch"
 subcategory: ""
 description: |-
-  Sample data source in the Terraform provider scaffolding.
+  Holds available region configurations for a server. Matches https://developers.bitlaunch.io/reference/host-region-object
 ---
 
 # bitlaunch_region (Data Source)
 
-Sample data source in the Terraform provider scaffolding.
+Holds available region configurations for a server. Matches https://developers.bitlaunch.io/reference/host-region-object
 
 ## Example Usage
 

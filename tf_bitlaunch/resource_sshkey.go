@@ -14,7 +14,7 @@ import (
 // https://developers.bitlaunch.io/reference/create-ssh-key
 func resourceSSHKey() *schema.Resource {
 	return &schema.Resource{
-		Description: "SSH Key",
+		Description: "SSH Key resouce. Matches https://developers.bitlaunch.io/reference/ssh-key-object-1",
 
 		CreateContext: resourceSSHKeyCreate,
 		ReadContext:   resourceSSHKeyRead,

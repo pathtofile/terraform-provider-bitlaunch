@@ -12,7 +12,7 @@ import (
 func dataSourceSize() *schema.Resource {
 	return &schema.Resource{
 		// This description is used by the documentation generator and the language server.
-		Description: "Sample data source in the Terraform provider scaffolding.",
+		Description: "Holds details on available size configurations for a server. Matches https://developers.bitlaunch.io/reference/host-size-object",
 
 		ReadContext: dataSourceSizeRead,
 

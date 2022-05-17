@@ -3,12 +3,12 @@
 page_title: "bitlaunch_sshkey Resource - terraform-provider-bitlaunch"
 subcategory: ""
 description: |-
-  SSH Key
+  SSH Key resouce. Matches https://developers.bitlaunch.io/reference/ssh-key-object-1
 ---
 
 # bitlaunch_sshkey (Resource)
 
-SSH Key
+SSH Key resouce. Matches https://developers.bitlaunch.io/reference/ssh-key-object-1
 
 ## Example Usage
 

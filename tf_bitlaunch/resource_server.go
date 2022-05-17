@@ -14,7 +14,7 @@ import (
 // https://developers.bitlaunch.io/reference/create-server
 func resourceServer() *schema.Resource {
 	return &schema.Resource{
-		Description: "Virtual Machine Server",
+		Description: "Virtual Machine Resource. Matches https://developers.bitlaunch.io/reference/server-object",
 
 		CreateContext: resourceServerCreate,
 		ReadContext:   resourceServerRead,
