@@ -5,9 +5,33 @@ be paid for using Bitcoin.
 If you find this project useful, feel free to buy me a coffee in BTC at `16g88jxnX315CnjTDbfZ9hwuWgeSbRJdMG`
 
 # Using
-To Use, just use the `hashicorp.com/pathtofile/bitlaunch` provider.
+## Get API Key
+First create an account on [BitLaunch.io](https://bitlaunch.io/), and add funds using
+either Bitcoin, Ethereum, or Litecoin.
 
-## Example
+Then under [settings](https://app.bitlaunch.io/account/api), Generate and save your API Key.
+
+
+## Create Terraform
+To Use, just use the `hashicorp.com/pathtofile/bitlaunch` provider, proving your API Key:
+```terraform
+terraform {
+  required_providers {
+    bitlaunch = {
+      version = "~> 0.0.1"
+      source  = "hashicorp.com/pathtofile/bitlaunch"
+    }
+  }
+}
+
+provider "bitlaunch" {
+  token = "<YOUR_API_TOKEN>"
+}
+```
+
+## Full Example
+This example creates a new small Ubuntu VM, as well as a new SSH key
+to be used to connect to the VM.
 ```terraform
 terraform {
   required_providers {
