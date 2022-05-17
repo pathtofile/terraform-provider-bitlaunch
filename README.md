@@ -5,15 +5,15 @@ be paid for using Bitcoin.
 If you find this project useful, feel free to buy me a coffee in BTC at `16g88jxnX315CnjTDbfZ9hwuWgeSbRJdMG`
 
 # Using
-## Get API Key
+## Get API Token
 First create an account on [BitLaunch.io](https://bitlaunch.io/), and add funds using
 either Bitcoin, Ethereum, or Litecoin.
 
-Then under [settings](https://app.bitlaunch.io/account/api), Generate and save your API Key.
+Then under [settings](https://app.bitlaunch.io/account/api), Generate and save your API Token.
 
 
 ## Create Terraform
-To Use, just use the `hashicorp.com/pathtofile/bitlaunch` provider, proving your API Key:
+To Use, just use the `hashicorp.com/pathtofile/bitlaunch` provider, proving your API Token:
 ```terraform
 terraform {
   required_providers {
