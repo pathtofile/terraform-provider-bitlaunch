@@ -46,7 +46,6 @@ data "bitlaunch_size" "example" {
 
 - `cpu_count` (Number) The amount of vCPU's included.
 - `disk_gb` (Number) The amount of disk space included.
-- `id` (String) The ID of this resource.
 - `memory_mb` (Number) The amount of memory (RAM) included.
 
 ### Read-Only
@@ -55,6 +54,7 @@ data "bitlaunch_size" "example" {
 - `cost_per_hour` (Number) The amount of balance deducted per hour.
 - `cost_per_month` (Number) The amount in USD charged per month.
 - `disks` (List of Object) Details on disks included with the size. (see [below for nested schema](#nestedatt--disks))
+- `id` (String) The ID of this resource.
 - `plan_type` (String) Some hosts offer a different plan type for different usage. You should refer to the host documentation for more information.
 - `slug` (String) A human readable string.
 

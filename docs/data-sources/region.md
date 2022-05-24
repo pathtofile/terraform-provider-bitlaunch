@@ -44,12 +44,12 @@ data "bitlaunch_region" "example" {
 
 ### Optional
 
-- `id` (String) The ID of this resource.
 - `region_name` (String) The name of the Region.
 - `slug` (String) The Specific Subregion slug.
 
 ### Read-Only
 
+- `id` (String) The ID of this resource.
 - `iso` (String) The ISO code for the region.
 - `unavailable_sizes` (List of String) A list of the unavailable sizes for this subregion.
 

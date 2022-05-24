@@ -43,13 +43,10 @@ resource "bitlaunch_sshkey" "tf_sshkey" {
 - `content` (String) The public portion of the SSH key.
 - `name` (String) The name of the key.
 
-### Optional
-
-- `id` (String) The ID of this resource.
-
 ### Read-Only
 
 - `created` (String) The creation date of the key.
 - `fingerprint` (String) The name of the key.
+- `id` (String) The ID of this resource.
 
 
