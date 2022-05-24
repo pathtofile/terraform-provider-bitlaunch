@@ -74,7 +74,6 @@ resource "bitlaunch_sever" "server" {
 
 ### Optional
 
-- `id` (String) The ID of this resource.
 - `initscript` (String) A script to run on first boot of the server. Only hosts with initScript enabled can use this feature.
 - `password` (String) The root user password to set on the server. Must be used if no SSH keys designated.
 - `ssh_keys` (List of String) An array of SSH key IDs to place on the server for authentication. Must be used if no password is designated of if the selected image does not support passwords.
@@ -83,6 +82,7 @@ resource "bitlaunch_sever" "server" {
 ### Read-Only
 
 - `created` (String) The creation date of the server.
+- `id` (String) The ID of this resource.
 - `image_description` (String) The description of the image installed on the server.
 - `ipv4` (String) The name of the key.
 - `rate` (Number) The hourly rate of the server that will be deducted from your account balance every hour.
