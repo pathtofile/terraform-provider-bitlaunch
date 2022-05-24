@@ -45,12 +45,12 @@ data "bitlaunch_image" "example" {
 ### Optional
 
 - `distro_name` (String) The name of the Linux Distibution or one-click app.
-- `id` (String) The ID of this resource.
 - `version_name` (String) The Specific Image Version
 
 ### Read-Only
 
 - `extra_cost_per_month` (Number) Extra monthly cost.
+- `id` (String) The ID of this resource.
 - `is_windows` (Boolean) Flag to determine if the image is Windows-based.
 - `min_disk_size` (Number) The minimum disk size available in GB.
 - `password_unsupported` (Boolean) If setting a password is supported.
